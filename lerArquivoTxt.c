@@ -22,7 +22,7 @@ void main(){
 	
 	FILE *arq; //Ponteiro para abrir o arquivo txt
 	
-	arq=fopen("NomeRG10.txt", "r"); //nome do arquivo a ser aberto
+	arq=fopen("exemplo.txt", "r"); //nome do arquivo a ser aberto
 					// o "r" significa que o arquivo será aberto em modo leitura 
 	
 	for(i=0;i<3;i++){
