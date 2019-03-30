@@ -1,9 +1,9 @@
 
 /*	=====================================================================================================================================================
 	Descrição:	Esse código tem por objetivo 	1) abrir um arquivo .txt;
-												2) Ler as 3 primeiras linhas desse arquivo;
-												3) armazenar cada linha em uma string;
-												4) imprimir  conteudo da string na tela
+							2) Ler as 3 primeiras linhas desse arquivo;
+							3) armazenar cada linha em uma string;
+							4) imprimir  conteudo da string na tela
 	-----------------------------------------------------------------------------------------------------------------------------------------------------
 	Versão 1.0
 	última atualização: 30/03/2019
