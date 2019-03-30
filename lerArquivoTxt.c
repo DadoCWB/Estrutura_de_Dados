@@ -1,22 +1,22 @@
 
 /*	=====================================================================================================================================================
 	Descrição:	Esse código tem por objetivo 	1) abrir um arquivo .txt;
-							2) Ler as 3 primeiras linhas desse arquivo;
-							3) armazenar cada linha em uma string;
-							4) imprimir  conteudo da string na tela
+												2) Ler as 3 primeiras linhas desse arquivo;
+												3) armazenar cada linha em uma string;
+												4) imprimir  conteudo da string na tela
 	-----------------------------------------------------------------------------------------------------------------------------------------------------
 	Versão 1.0
 	última atualização: 30/03/2019
-	disponível em: https://github.com/DadoCWB/Estrutura_de_Dados/edit/master/lerArquivoTxt.c
+	disponível em: https://github.com/DadoCWB/Estrutura_de_Dados
 	=====================================================================================================================================================
 */
 
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(){
+void main(){
 	
-	int i;	// variável auxilias (contador) 
+	int i;		// contador 
 	char txt[50];	//string para armazera os caracteres de cada linha lida dento do laço pelo fscanf  
 			//estou supondo que uma linha não irá conter mais que 50 caracteres
 	
@@ -30,10 +30,11 @@ int main(){
 		
 		printf("\n%s",txt); //imprime na tela cada uma das linhas que foi lida pelo fscanf
 	}
-		
+
+	fclose(arq); //fecha o arquivo		
 };
 
-/*
+/* -----------------------------------------------------------------------------------------------------------------------------------------------------
 Explicando um pouco as coisas:
 	
 	O ponteiro na linha 23 é do tipo FILE. Ele é usado para varrer cada caractere contido no arquivo e
@@ -49,4 +50,4 @@ Explicando um pouco as coisas:
 		printf("\n%s",txt); //imprime na tela cada uma das linhas que foi lida pelo fscanf 
 	}
 	
-*/
+------------------------------------------------------------------------------------------------------------------------------------------------------*/
