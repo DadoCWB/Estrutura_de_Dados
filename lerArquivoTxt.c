@@ -26,9 +26,10 @@ void main(){
 					// o "r" significa que o arquivo será aberto em modo leitura 
 	
 	for(i=0;i<3;i++){
-		fscanf(arq,"%s",txt); // lê uma linha do arquivo e armazena-a na string txt
+		fscanf(arq,"%s",txt); 	// lê uma linha do arquivo e armazena-a na string txt
+					// a leitura é feita caractere por caractere até um "espaço em branco" ou até o final da linha
 		
-		printf("\n%s",txt); //imprime na tela cada uma das linhas que foi lida pelo fscanf
+		printf("\n%s",txt); //imprime na tela os caracteres lidos pelo fscanf
 	}
 
 	fclose(arq); //fecha o arquivo		
